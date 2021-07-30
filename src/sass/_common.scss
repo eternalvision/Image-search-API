@@ -1,0 +1,39 @@
+:root {
+    // header
+    --input-radius: 20px;
+    --btn-width: 40px;
+    --input-width: calc(var(--btn-width) * 10);
+    --border: 2px;
+    // grid
+    --standart-30px: 30px;
+}
+
+* {
+    transition: 250ms;
+    font-family: sans-serif !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+h3,
+p {
+    margin: 0 10px 5px 10px;
+    color: #242222;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: #614c4c;
+}
+
+.sl-counter {
+    font-weight: 600;
+}
